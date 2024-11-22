@@ -3,7 +3,7 @@
 {
   padding: 0; 
   margin: 0;    
-  font-family: "times new roman", cursive;
+  font-family: "Josefin sans", cursive;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
@@ -170,7 +170,7 @@ nav
 .destination-cards
 {
     height: 100%;
-    background-color: #ffffff;
+    background-color: #ffffffb8;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
     border-radius: 2rem;
 }
@@ -196,6 +196,7 @@ nav
     font-size: 1.3rem;
     line-height: 1.2rem;
     color: black;
+    font-weight: 300;
 }
 .card-content .btn
 {
@@ -206,6 +207,17 @@ nav
     color: #ffffff;
     background-color: #4a618a;
     cursor: pointer;
+}
+.btn a
+{
+    color:#ffffff;
+    text-decoration: none;    
+}
+
+.btn:hover
+{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
 }
 @media (width < 1200px)
 {
